@@ -1,0 +1,97 @@
+/* עיצוב כללי לדף */
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    margin: 0;
+    background-color: #f4f6f9;
+}
+
+/* כותרת עליונה */
+header {
+    background-color: #2f5d8a;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* תפריט ניווט */
+nav {
+    margin-top: 0.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* אזור תוכן */
+main {
+    padding: 1.5rem;
+}
+
+/* כותרות */
+h2 {
+    color: #2f5d8a;
+    margin-bottom: 1rem;
+}
+
+/* פסקאות */
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* תחתית הדף */
+footer {
+    background-color: #2f5d8a;
+    color: white;
+    text-align: center;
+    padding: 0.8rem;
+    margin-top: 2rem;
+}
+
+/* טבלה של הצוות */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+}
+
+/* כותרות טבלה */
+th {
+    background-color: #4a7fb0;
+    color: white;
+}
+
+/* תאים בטבלה */
+td, th {
+    border: 1px solid #ccc;
+    padding: 0.8rem;
+    text-align: center;
+}
+
+/* אפקט מעבר עכבר על שורות */
+tr:hover {
+    background-color: #eef3f8;
+}
+
+/* עיצוב התמונות */
+img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    transition: transform 0.2s;
+}
+
+/* אפקט זום קטן */
+img:hover {
+    transform: scale(1.05);
+}
