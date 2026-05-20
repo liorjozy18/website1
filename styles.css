@@ -94,4 +94,6 @@ img {
 /* אפקט זום קטן */
 img:hover {
     transform: scale(1.05);
-}
+}@import url("layout.css");
+@import url("design.css");
+@import url("table.css");
